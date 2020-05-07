@@ -8,6 +8,7 @@ import SavedList from './Movies/SavedList';
 import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
 
+import styled from 'styled-components'
 
 const App = () => {
   const [savedList, setSavedList] = useState([]);
